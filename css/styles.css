@@ -1,0 +1,214 @@
+/* палитра цветов */
+/* основной светло черный #757575
+    черный для заголовков #212121
+    акцентный синий #2196F3
+    белый #FFFFFF
+    Полупрозрачные контакты rgba(255, 255, 255, 0.6)        #FFFFFF99
+    hover главной кнопки #188CE8
+    hero bgc #2F303A
+    Наша корманда bgc #F5F4FA
+    */
+
+:root {
+    --main-color: #757575;
+    --secondary-color: #ffffff;
+    --section-color: #212121;
+    --accent-color: #2196f3;
+    --black-color: #000000;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --bgc-semiblack: #2f303a;
+}
+
+body {
+    color: var(--main-color);
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    
+}
+
+.logo-accent {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-size: 26px;
+}
+
+.logo-black {
+    font-family: 'Raleway';
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-white {
+    color: var(--secondary-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.section {
+    color: var(--section-color);
+    outline: 2px solid red;
+}
+
+.hero-footer-bgc {
+    background-color: var(--bgc-semiblack);
+}
+
+.nav-list-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link-item {
+    text-decoration: none;
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.header-contact-info {
+    color: var(--main-color);
+    font-style: normal;
+}
+
+.header-contact-info:hover,
+.header-contact-info:focus {
+    color: var(--accent-color);
+    font-style: normal;
+}
+
+.footer-contact-info {
+    color: var(--footer-contact-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.footer-contact-info:hover,
+.footer-contact-info:focus {
+    color: var(--accent-color);
+    font-style: normal;
+}
+
+.footer-adress {
+    color: var(--secondary-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.hero-title {
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-color);
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
+}
+
+.features-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--section-color);
+}
+
+.jobs-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.card-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+.card-item-prof {
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.portfolio-bts {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--section-color);
+    cursor: pointer;
+}
+
+.portfolio-bts:hover,
+.portfolio-bts:focus {
+    background-color: var(--accent-color);
+}
+
+.portfolio-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--section-color);
+}
+
+.portfolio-card-item {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+}
+.our-team-bgc {
+    background-color: #F5F4FA;
+}
