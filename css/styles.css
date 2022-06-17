@@ -153,6 +153,9 @@ body {
     text-transform: uppercase;
     color: var(--section-color);
 }
+.features-text{
+    color: var(--main-color);
+}
 
 .jobs-team-title {
     font-weight: 700;
