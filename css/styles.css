@@ -19,12 +19,39 @@
     --bgc-semiblack: #2f303a;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     color: var(--main-color);
     background-color: #ffffff;
     font-family: 'Roboto';
     font-size: 14px;
-    
+
+}
+
+.section {
+    color: var(--section-color);
+
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+
 }
 
 .logo-accent {
@@ -54,10 +81,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.section {
-    color: var(--section-color);
-    outline: 2px solid red;
-}
+
 
 .hero-footer-bgc {
     background-color: var(--bgc-semiblack);
@@ -67,6 +91,7 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--section-color);
 }
 
 .nav-list-item:hover,
@@ -117,15 +142,22 @@ body {
     font-style: normal;
 }
 
+.hero {
+    padding: 200px 452px;
+    text-align: center;
+}
+
 .hero-title {
     color: var(--secondary-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    /* display: flex; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
+    margin-bottom: 30px;
+
+
 }
 
 .hero-btn {
@@ -133,18 +165,42 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: inline-block;
     letter-spacing: 0.06em;
     color: var(--secondary-color);
     background-color: #2196F3;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin-bottom: 200px;
+    /* margin-left: 700px;
+    margin-right: 700px; */
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #188CE8;
+}
+
+
+.features {
+    display: flex;
+    margin: 94px auto;
+}
+
+.features-item {
+    flex-basis: 270px;
+    margin-right: 30px;
+    margin-left: 0;
+
+}
+
+.features-item:last-child {
+    margin-right: 0;
 }
 
 .features-title {
@@ -153,7 +209,8 @@ body {
     text-transform: uppercase;
     color: var(--section-color);
 }
-.features-text{
+
+.features-text {
     color: var(--main-color);
 }
 
@@ -212,6 +269,7 @@ body {
     letter-spacing: 0.03em;
 
 }
+
 .our-team-bgc {
     background-color: #F5F4FA;
 }
