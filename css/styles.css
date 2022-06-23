@@ -165,7 +165,13 @@ body {
     margin-top: 20px;
 }
 
-/* .footer-list-item {} */
+.footer-list-item {
+    margin-bottom: 9px;
+}
+
+.footer-list-item:last-child {
+    margin-bottom: 0;
+}
 
 .footer-contact-info {
     color: var(--footer-contact-color);
@@ -287,7 +293,7 @@ body {
 .jobs-list {
     display: flex;
     margin-right: -30px;
-    
+
 }
 
 .jobs-list-item {
