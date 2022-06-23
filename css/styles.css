@@ -272,7 +272,8 @@ body {
 .features-text {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em color: var(--main-color);
+    letter-spacing: 0.03em; 
+    color: var(--main-color);
 }
 
 .jobs {
